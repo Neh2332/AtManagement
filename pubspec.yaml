@@ -1,0 +1,39 @@
+name: at_management
+description: "AtManagement - Zero-Trust Project Management on the atPlatform"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Atsign atPlatform packages
+  at_onboarding_flutter: ^6.2.0
+  at_client_mobile: ^3.3.0
+  at_commons: ^5.1.2
+  at_utils: ^3.0.19
+
+  # State management
+  provider: ^6.1.2
+
+  # UI helpers
+  google_fonts: ^6.2.1
+  flutter_slidable: ^3.1.1
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
